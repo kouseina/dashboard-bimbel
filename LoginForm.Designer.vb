@@ -25,9 +25,9 @@ Partial Class frmlogin
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        Button1 = New Button()
+        txtEmail = New TextBox()
+        txtPassword = New TextBox()
+        btnLogin = New Button()
         SuspendLayout()
         ' 
         ' Label1
@@ -60,40 +60,40 @@ Partial Class frmlogin
         Label3.TabIndex = 2
         Label3.Text = "Password"
         ' 
-        ' TextBox1
+        ' txtEmail
         ' 
-        TextBox1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(330, 158)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(265, 33)
-        TextBox1.TabIndex = 3
+        txtEmail.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtEmail.Location = New Point(330, 158)
+        txtEmail.Name = "txtEmail"
+        txtEmail.Size = New Size(265, 33)
+        txtEmail.TabIndex = 3
         ' 
-        ' TextBox2
+        ' txtPassword
         ' 
-        TextBox2.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(330, 236)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(265, 33)
-        TextBox2.TabIndex = 4
+        txtPassword.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtPassword.Location = New Point(330, 236)
+        txtPassword.Name = "txtPassword"
+        txtPassword.Size = New Size(265, 33)
+        txtPassword.TabIndex = 4
         ' 
-        ' Button1
+        ' btnLogin
         ' 
-        Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(173, 326)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(422, 40)
-        Button1.TabIndex = 5
-        Button1.Text = "Masuk"
-        Button1.UseVisualStyleBackColor = True
+        btnLogin.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnLogin.Location = New Point(173, 326)
+        btnLogin.Name = "btnLogin"
+        btnLogin.Size = New Size(422, 40)
+        btnLogin.TabIndex = 5
+        btnLogin.Text = "Masuk"
+        btnLogin.UseVisualStyleBackColor = True
         ' 
         ' frmlogin
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(Button1)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(btnLogin)
+        Controls.Add(txtPassword)
+        Controls.Add(txtEmail)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
@@ -106,8 +106,8 @@ Partial Class frmlogin
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents txtEmail As TextBox
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents btnLogin As Button
 
 End Class
