@@ -22,91 +22,95 @@ Partial Class frmnilai
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        TextBox3 = New TextBox()
+        txtnip = New TextBox()
         Label5 = New Label()
-        Button3 = New Button()
-        DataGridView1 = New DataGridView()
-        Button2 = New Button()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        bthapus = New Button()
+        DataGridView = New DataGridView()
+        btsimpan = New Button()
+        txtmatematika = New TextBox()
+        txtnama = New TextBox()
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
         Button1 = New Button()
-        TextBox4 = New TextBox()
-        TextBox5 = New TextBox()
+        txtipa = New TextBox()
+        txtbahasaindonesia = New TextBox()
         Label6 = New Label()
-        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        Label7 = New Label()
+        cbkelas = New ComboBox()
+        btcari = New Button()
+        btedit = New Button()
+        CType(DataGridView, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' TextBox3
+        ' txtnip
         ' 
-        TextBox3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox3.Location = New Point(345, 153)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(378, 29)
-        TextBox3.TabIndex = 46
+        txtnip.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtnip.Location = New Point(345, 153)
+        txtnip.Name = "txtnip"
+        txtnip.Size = New Size(378, 29)
+        txtnip.TabIndex = 46
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label5.Location = New Point(171, 156)
+        Label5.Location = New Point(77, 153)
         Label5.Name = "Label5"
         Label5.Size = New Size(35, 21)
         Label5.TabIndex = 45
         Label5.Text = "NIP"
         ' 
-        ' Button3
+        ' bthapus
         ' 
-        Button3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button3.Location = New Point(171, 367)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(160, 37)
-        Button3.TabIndex = 44
-        Button3.Text = "Hapus"
-        Button3.UseVisualStyleBackColor = True
+        bthapus.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        bthapus.Location = New Point(563, 493)
+        bthapus.Name = "bthapus"
+        bthapus.Size = New Size(160, 37)
+        bthapus.TabIndex = 44
+        bthapus.Text = "Hapus"
+        bthapus.UseVisualStyleBackColor = True
         ' 
-        ' DataGridView1
+        ' DataGridView
         ' 
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(171, 434)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.Size = New Size(552, 224)
-        DataGridView1.TabIndex = 43
+        DataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView.Location = New Point(77, 575)
+        DataGridView.Name = "DataGridView"
+        DataGridView.Size = New Size(868, 379)
+        DataGridView.TabIndex = 43
         ' 
-        ' Button2
+        ' btsimpan
         ' 
-        Button2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button2.Location = New Point(563, 367)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(160, 37)
-        Button2.TabIndex = 42
-        Button2.Text = "Simpan"
-        Button2.UseVisualStyleBackColor = True
+        btsimpan.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btsimpan.Location = New Point(562, 417)
+        btsimpan.Name = "btsimpan"
+        btsimpan.Size = New Size(160, 37)
+        btsimpan.TabIndex = 42
+        btsimpan.Text = "Simpan"
+        btsimpan.UseVisualStyleBackColor = True
         ' 
-        ' TextBox2
+        ' txtmatematika
         ' 
-        TextBox2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(345, 206)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(378, 29)
-        TextBox2.TabIndex = 40
+        txtmatematika.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtmatematika.Location = New Point(345, 248)
+        txtmatematika.Name = "txtmatematika"
+        txtmatematika.Size = New Size(378, 29)
+        txtmatematika.TabIndex = 40
         ' 
-        ' TextBox1
+        ' txtnama
         ' 
-        TextBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(345, 105)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(378, 29)
-        TextBox1.TabIndex = 39
+        txtnama.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtnama.Location = New Point(345, 105)
+        txtnama.Name = "txtnama"
+        txtnama.Size = New Size(378, 29)
+        txtnama.TabIndex = 39
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(171, 264)
+        Label4.Location = New Point(77, 303)
         Label4.Name = "Label4"
         Label4.Size = New Size(32, 21)
         Label4.TabIndex = 38
@@ -116,7 +120,7 @@ Partial Class frmnilai
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(171, 209)
+        Label3.Location = New Point(77, 248)
         Label3.Name = "Label3"
         Label3.Size = New Size(103, 21)
         Label3.TabIndex = 37
@@ -126,7 +130,7 @@ Partial Class frmnilai
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(171, 108)
+        Label2.Location = New Point(77, 105)
         Label2.Name = "Label2"
         Label2.Size = New Size(56, 21)
         Label2.TabIndex = 36
@@ -136,7 +140,7 @@ Partial Class frmnilai
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(306, 15)
+        Label1.Location = New Point(389, 24)
         Label1.Name = "Label1"
         Label1.Size = New Size(208, 37)
         Label1.TabIndex = 35
@@ -151,47 +155,90 @@ Partial Class frmnilai
         Button1.Text = "Kembali ke Home"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' TextBox4
+        ' txtipa
         ' 
-        TextBox4.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox4.Location = New Point(345, 261)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(378, 29)
-        TextBox4.TabIndex = 47
+        txtipa.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtipa.Location = New Point(345, 303)
+        txtipa.Name = "txtipa"
+        txtipa.Size = New Size(378, 29)
+        txtipa.TabIndex = 47
         ' 
-        ' TextBox5
+        ' txtbahasaindonesia
         ' 
-        TextBox5.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox5.Location = New Point(345, 312)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(378, 29)
-        TextBox5.TabIndex = 49
+        txtbahasaindonesia.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtbahasaindonesia.Location = New Point(345, 354)
+        txtbahasaindonesia.Name = "txtbahasaindonesia"
+        txtbahasaindonesia.Size = New Size(378, 29)
+        txtbahasaindonesia.TabIndex = 49
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label6.Location = New Point(171, 315)
+        Label6.Location = New Point(77, 354)
         Label6.Name = "Label6"
         Label6.Size = New Size(155, 21)
         Label6.TabIndex = 48
         Label6.Text = "BAHASA INDONESIA"
         ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(77, 198)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(54, 21)
+        Label7.TabIndex = 50
+        Label7.Text = "KELAS"
+        ' 
+        ' cbkelas
+        ' 
+        cbkelas.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        cbkelas.FormattingEnabled = True
+        cbkelas.Location = New Point(345, 198)
+        cbkelas.Name = "cbkelas"
+        cbkelas.Size = New Size(377, 29)
+        cbkelas.TabIndex = 51
+        ' 
+        ' btcari
+        ' 
+        btcari.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btcari.Location = New Point(77, 417)
+        btcari.Name = "btcari"
+        btcari.Size = New Size(160, 37)
+        btcari.TabIndex = 52
+        btcari.Text = "Cari"
+        btcari.UseVisualStyleBackColor = True
+        ' 
+        ' btedit
+        ' 
+        btedit.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btedit.Location = New Point(77, 493)
+        btedit.Name = "btedit"
+        btedit.Size = New Size(160, 37)
+        btedit.TabIndex = 53
+        btedit.Text = "Edit"
+        btedit.UseVisualStyleBackColor = True
+        ' 
         ' frmnilai
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 748)
-        Controls.Add(TextBox5)
+        ClientSize = New Size(1016, 1019)
+        Controls.Add(btedit)
+        Controls.Add(btcari)
+        Controls.Add(cbkelas)
+        Controls.Add(Label7)
+        Controls.Add(txtbahasaindonesia)
         Controls.Add(Label6)
-        Controls.Add(TextBox4)
-        Controls.Add(TextBox3)
+        Controls.Add(txtipa)
+        Controls.Add(txtnip)
         Controls.Add(Label5)
-        Controls.Add(Button3)
-        Controls.Add(DataGridView1)
-        Controls.Add(Button2)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(bthapus)
+        Controls.Add(DataGridView)
+        Controls.Add(btsimpan)
+        Controls.Add(txtmatematika)
+        Controls.Add(txtnama)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -199,24 +246,28 @@ Partial Class frmnilai
         Controls.Add(Button1)
         Name = "frmnilai"
         Text = "Nilai"
-        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridView, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtnip As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents bthapus As Button
+    Friend WithEvents DataGridView As DataGridView
+    Friend WithEvents btsimpan As Button
+    Friend WithEvents txtmatematika As TextBox
+    Friend WithEvents txtnama As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtipa As TextBox
+    Friend WithEvents txtbahasaindonesia As TextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents cbkelas As ComboBox
+    Friend WithEvents btcari As Button
+    Friend WithEvents btedit As Button
 End Class
