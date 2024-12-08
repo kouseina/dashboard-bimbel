@@ -25,15 +25,15 @@ Partial Class frmkehadiran
         Button3 = New Button()
         DataGridView1 = New DataGridView()
         Button2 = New Button()
-        ComboBox1 = New ComboBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        Cbketerangan = New ComboBox()
+        Txttanggal = New TextBox()
+        Txtnama = New TextBox()
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
         Button1 = New Button()
-        TextBox3 = New TextBox()
+        Txtnip = New TextBox()
         Label5 = New Label()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -66,31 +66,31 @@ Partial Class frmkehadiran
         Button2.Text = "Simpan"
         Button2.UseVisualStyleBackColor = True
         ' 
-        ' ComboBox1
+        ' Cbketerangan
         ' 
-        ComboBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Items.AddRange(New Object() {"Hadir", "Sakit", "Ijin", "Alpha"})
-        ComboBox1.Location = New Point(345, 275)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(378, 29)
-        ComboBox1.TabIndex = 28
+        Cbketerangan.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Cbketerangan.FormattingEnabled = True
+        Cbketerangan.Items.AddRange(New Object() {"Hadir", "Sakit", "Ijin", "Alpha"})
+        Cbketerangan.Location = New Point(345, 275)
+        Cbketerangan.Name = "Cbketerangan"
+        Cbketerangan.Size = New Size(378, 29)
+        Cbketerangan.TabIndex = 28
         ' 
-        ' TextBox2
+        ' Txttanggal
         ' 
-        TextBox2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(345, 220)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(378, 29)
-        TextBox2.TabIndex = 27
+        Txttanggal.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Txttanggal.Location = New Point(345, 220)
+        Txttanggal.Name = "Txttanggal"
+        Txttanggal.Size = New Size(378, 29)
+        Txttanggal.TabIndex = 27
         ' 
-        ' TextBox1
+        ' Txtnama
         ' 
-        TextBox1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(345, 119)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(378, 29)
-        TextBox1.TabIndex = 26
+        Txtnama.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Txtnama.Location = New Point(345, 119)
+        Txtnama.Name = "Txtnama"
+        Txtnama.Size = New Size(378, 29)
+        Txtnama.TabIndex = 26
         ' 
         ' Label4
         ' 
@@ -141,13 +141,13 @@ Partial Class frmkehadiran
         Button1.Text = "Kembali ke Home"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' TextBox3
+        ' Txtnip
         ' 
-        TextBox3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox3.Location = New Point(345, 167)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(378, 29)
-        TextBox3.TabIndex = 33
+        Txtnip.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Txtnip.Location = New Point(345, 167)
+        Txtnip.Name = "Txtnip"
+        Txtnip.Size = New Size(378, 29)
+        Txtnip.TabIndex = 33
         ' 
         ' Label5
         ' 
@@ -164,14 +164,14 @@ Partial Class frmkehadiran
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 748)
-        Controls.Add(TextBox3)
+        Controls.Add(Txtnip)
         Controls.Add(Label5)
         Controls.Add(Button3)
         Controls.Add(DataGridView1)
         Controls.Add(Button2)
-        Controls.Add(ComboBox1)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
+        Controls.Add(Cbketerangan)
+        Controls.Add(Txttanggal)
+        Controls.Add(Txtnama)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -187,14 +187,14 @@ Partial Class frmkehadiran
     Friend WithEvents Button3 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Cbketerangan As ComboBox
+    Friend WithEvents Txttanggal As TextBox
+    Friend WithEvents Txtnama As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Txtnip As TextBox
     Friend WithEvents Label5 As Label
 End Class

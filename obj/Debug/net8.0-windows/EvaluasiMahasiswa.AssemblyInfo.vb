@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("EvaluasiMahasiswa"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+067b56cf3c5ce6cdcd28fefbfc2ca6e9b2cecf4c"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f083e8666082bdfd0a7bbfb832af51684cc1f985"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("EvaluasiMahasiswa"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("EvaluasiMahasiswa"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
