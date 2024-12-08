@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\basic\\BimbelUn\\EvaluasiMahasiswa.vbproj": {}
+    "D:\\Projects\\basic\\BimbelUn\\BimbelUn.vbproj": {}
   },
   "projects": {
-    "D:\\Projects\\basic\\BimbelUn\\EvaluasiMahasiswa.vbproj": {
+    "D:\\Projects\\basic\\BimbelUn\\BimbelUn.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\basic\\BimbelUn\\EvaluasiMahasiswa.vbproj",
-        "projectName": "EvaluasiMahasiswa",
-        "projectPath": "D:\\Projects\\basic\\BimbelUn\\EvaluasiMahasiswa.vbproj",
+        "projectUniqueName": "D:\\Projects\\basic\\BimbelUn\\BimbelUn.vbproj",
+        "projectName": "BimbelUn",
+        "projectPath": "D:\\Projects\\basic\\BimbelUn\\BimbelUn.vbproj",
         "packagesPath": "C:\\Users\\kouseina\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\basic\\BimbelUn\\obj\\",
         "projectStyle": "PackageReference",
