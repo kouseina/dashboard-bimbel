@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("BimbelUn"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5cf4cc54bee175ddf610d62c5e41a44315826b3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3790e10f560cc13a3c5aa104e883786319324eee"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("BimbelUn"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("BimbelUn"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
